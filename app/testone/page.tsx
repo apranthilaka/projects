@@ -1,4 +1,9 @@
-export default function Page({ name, age }) {
+type Props = {
+  name: string;
+  age: number;
+};
+
+export default function Page({ name, age }: Props) {
   return (
     <div>
       <div>
